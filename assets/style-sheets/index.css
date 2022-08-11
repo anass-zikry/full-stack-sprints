@@ -10,21 +10,12 @@
     height: 4rem;
     display: flex;
     width: 100%;
-    /* overflow: hidden; */
-    /* justify-content: space-between; */
 }
 .top-logo {
     width: 130px;
 }
-/* .search {
-    padding-left: 20px; 
-    height: 50%;
-    display: inline;
-    vertical-align: middle;
-} */
 .float-right {
     margin-left: auto;
-    /* background-color: blueviolet; */
     display: flex;
 }
 .search {
@@ -43,14 +34,11 @@
     width: 75px;
 }
 .nav-bar{
-    /* background-color: bisque; */
     margin: 0;
     padding: 0;
     padding-left: 0;
-    /* height: 4rem; */
     list-style-type: none;
     display: flex;
-    align-items:baseline;
 }
 
 
@@ -63,7 +51,6 @@
     padding-bottom: 1rem;
     margin: 0;
     font-size: large;
-    /* height: 4rem; */
 }
 .nav-bar li:hover{
     background-color: rgb(34, 80, 112);
@@ -86,7 +73,6 @@
     max-height: 500px;
 }
 .main-content {
-    /* background-color: blanchedalmond; */
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
