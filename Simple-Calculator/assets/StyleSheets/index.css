@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+button:hover {
+  cursor: pointer;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.input-container {
+  width: 50%;
+  min-height: 120px;
+  margin: 0.5rem auto;
+}
+.input-container form {
+  display: flex;
+  padding: 1rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+.input-container form div {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-size: large;
+}
+.input-container form div h3 {
+
+  width: fit-content;
+  min-width: 150px;
+  max-width: 300px;
+  background: rgba(128, 128, 128, 0.595);
+  border: 1px solid black;
+}
+#num1:hover{
+  background: rgba(128, 128, 128, 0.897);
+  cursor: pointer;
+}
+#num2:hover{
+  background: rgba(128, 128, 128, 0.897);
+  cursor: pointer;
+}
+#operation {
+  background-color: white;
+  border: none;
+  text-align: center;
+}
+.buttons-container {
+  background: rgb(64, 67, 255);
+  width: 240px;
+  margin: 0.5rem auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.buttons-container button {
+  width: 60px;
+  font-size: large;
+  padding: 0.5rem;
+  margin: 0.5rem;
+}
+.buttons-container div input {
+  text-decoration: none;
+  list-style-type: none;
+}
+.result-container {
+  display: flex;
+  margin: 0.5rem auto;
+}
+.result-container h3 {
+  font-size: larger;
+  font-weight: bold;
+  padding: 0.3rem;
+}
+
+#equal {
+  width: 240px;
+}
