@@ -61,18 +61,26 @@ document
 function plusClickHAndler() {
   document.getElementById("operation").innerText = "+";
   operation = "+";
+  destHolderChange("num2");
+  num = num2;
 }
 function minusClickHandler() {
   document.getElementById("operation").innerText = "-";
   operation = "-";
+  destHolderChange("num2");
+  num = num2;
 }
 function divideClickHandler() {
   document.getElementById("operation").innerText = "/";
   operation = "/";
+  destHolderChange("num2");
+  num = num2;
 }
 function multiplyClickHandler() {
   document.getElementById("operation").innerText = "*";
   operation = "*";
+  destHolderChange("num2");
+  num = num2;
 }
 
 document.getElementById("n1").addEventListener("click", pn1);
@@ -93,6 +101,7 @@ function equalClickHandler() {
   let result = calculate(parseInt(num1), parseInt(num2), operation);
   document.getElementById("result").innerText = result;
   destHolderChange("num1");
+  num = num1;
 }
 
 function calculate(firstNumber, secondNumber, selectedOperation) {
@@ -128,5 +137,6 @@ function clearClickHandler() {
   destHolderChange("num1");
   document.getElementById("num1").innerText = num1 + "0";
   document.getElementById("num2").innerText = num2 + "0";
+  document.getElementById("result").innerText = "";
 }
 document.getElementById("clear").addEventListener("click", clearClickHandler);
